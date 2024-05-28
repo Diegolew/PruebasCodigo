@@ -5,6 +5,7 @@ C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\Physi
 C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\PhysicsCalculationsLibrary.AssemblyInfoInputs.cache
 C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\PhysicsCalculationsLibrary.AssemblyInfo.cs
 C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\PhysicsCalculationsLibrary.csproj.CoreCompileInputs.cache
+C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\PhysicsCalculationsLibrary.sourcelink.json
 C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\PhysicsCalculationsLibrary.dll
 C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\refint\PhysicsCalculationsLibrary.dll
 C:\Users\diego\proyecto\Testeo\PhysicsCalculationsLibrary\obj\Debug\net8.0\PhysicsCalculationsLibrary.pdb
