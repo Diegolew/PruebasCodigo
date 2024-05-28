@@ -20,6 +20,35 @@ namespace Tests
             Assert.AreEqual(50.0, result);
         }
 
-        // Agrega más pruebas para otras funciones aquí...
+        [Test]
+        public void TestCalculateWork()
+        {
+            // Arrange
+            PhysicsCalculator calculator = new PhysicsCalculator();
+            double force = 50.0;
+            double distance = 10.0;
+
+            // Act
+            double result = calculator.CalculateWork(force, distance);
+
+            // Assert
+            Assert.AreEqual(500.0, result);
+        }
+
+        [Test]
+        public void TestCalculateKineticEnergy()
+        {
+            // Arrange
+            PhysicsCalculator calculator = new PhysicsCalculator();
+            double mass = 10.0;
+            double velocity = 5.0;
+
+            // Act
+            double result = calculator.CalculateKineticEnergy(mass, velocity);
+
+            // Assert
+            Assert.AreEqual(125.0, result);
+        }
+
     }
 }
