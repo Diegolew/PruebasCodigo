@@ -18,6 +18,19 @@ namespace PhysicsCalculatorConsoleApp
                 Console.WriteLine("2. Calcular Trabajo (W = F * d)");
                 Console.WriteLine("3. Calcular Energía Cinética (E = 0.5 * m * v^2)");
                 Console.WriteLine("4. Salir");
+                
+                string choice = Console.ReadLine();
+                switch (choice)
+                {
+                    case "1":
+                        Console.Write("Ingrese la masa (kg): ");
+                        double mass = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("Ingrese la aceleración (m/s^2): ");
+                        double acceleration = Convert.ToDouble(Console.ReadLine());
+                        double force = calculator.CalculateForce(mass, acceleration);
+                        Console.WriteLine($"Fuerza: {force} N");
+                        break;
+                }
             }
         }
     }
