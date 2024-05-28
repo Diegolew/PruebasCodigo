@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+// algo
 using System;
 using PhysicsCalculationsLibrary;
 
@@ -30,7 +31,7 @@ namespace PhysicsCalculatorConsoleApp
                         double force = calculator.CalculateForce(mass, acceleration);
                         Console.WriteLine($"Fuerza: {force} N");
                         break;
-                        
+
                     case "2":
                         Console.Write("Ingrese la fuerza (N): ");
                         force = Convert.ToDouble(Console.ReadLine());
@@ -38,6 +39,15 @@ namespace PhysicsCalculatorConsoleApp
                         double distance = Convert.ToDouble(Console.ReadLine());
                         double work = calculator.CalculateWork(force, distance);
                         Console.WriteLine($"Trabajo: {work} J");
+                        break;
+
+                    case "3":
+                        Console.Write("Ingrese la masa (kg): ");
+                        mass = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("Ingrese la velocidad (m/s): ");
+                        double velocity = Convert.ToDouble(Console.ReadLine());
+                        double kineticEnergy = calculator.CalculateKineticEnergy(mass, velocity);
+                        Console.WriteLine($"Energía Cinética: {kineticEnergy} J");
                         break;
                 }
             }
