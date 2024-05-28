@@ -13,7 +13,10 @@ namespace PhysicsCalculationsLibrary
         {
             return force * distance;
         }
-
+        public double CalculateKineticEnergy(double mass, double velocity)
+        {
+            return 0.5 * mass * velocity * velocity;
+        }
 
     }
 }
