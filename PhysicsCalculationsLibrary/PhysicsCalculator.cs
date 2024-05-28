@@ -9,6 +9,11 @@ namespace PhysicsCalculationsLibrary
         {
             return mass * acceleration;
         }
+         public double CalculateWork(double force, double distance)
+        {
+            return force * distance;
+        }
+
 
     }
 }
