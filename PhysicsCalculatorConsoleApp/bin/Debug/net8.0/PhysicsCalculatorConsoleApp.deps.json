@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PhysicsCalculatorConsoleApp/1.0.0": {
+        "dependencies": {
+          "PhysicsCalculationsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "PhysicsCalculatorConsoleApp.dll": {}
+        }
+      },
+      "PhysicsCalculationsLibrary/1.0.0": {
+        "runtime": {
+          "PhysicsCalculationsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhysicsCalculatorConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PhysicsCalculationsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
