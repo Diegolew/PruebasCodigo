@@ -49,7 +49,7 @@ namespace PhysicsCalculatorConsoleApp
                         double kineticEnergy = calculator.CalculateKineticEnergy(mass, velocity);
                         Console.WriteLine($"Energía Cinética: {kineticEnergy} J");
                         break;
-                
+
                     case "4":
                         continueCalculating = false;
                         break;
@@ -57,6 +57,16 @@ namespace PhysicsCalculatorConsoleApp
                     default:
                         Console.WriteLine("Opción no válida. Intente de nuevo.");
                         break;
+                }
+
+                if (continueCalculating)
+                {
+                    Console.WriteLine("¿Desea realizar otro cálculo? (s/n)");
+                    string continueChoice = Console.ReadLine().ToLower();
+                    if (continueChoice != "s")
+                    {
+                        continueCalculating = false;
+                    }
                 }
             }
         }
