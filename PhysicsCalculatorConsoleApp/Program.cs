@@ -30,6 +30,15 @@ namespace PhysicsCalculatorConsoleApp
                         double force = calculator.CalculateForce(mass, acceleration);
                         Console.WriteLine($"Fuerza: {force} N");
                         break;
+                        
+                    case "2":
+                        Console.Write("Ingrese la fuerza (N): ");
+                        force = Convert.ToDouble(Console.ReadLine());
+                        Console.Write("Ingrese la distancia (m): ");
+                        double distance = Convert.ToDouble(Console.ReadLine());
+                        double work = calculator.CalculateWork(force, distance);
+                        Console.WriteLine($"Trabajo: {work} J");
+                        break;
                 }
             }
         }
