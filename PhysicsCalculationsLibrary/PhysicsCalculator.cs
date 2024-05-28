@@ -1,4 +1,5 @@
-﻿using System;
+﻿//algo 
+using System;
 
 namespace PhysicsCalculationsLibrary
 {
